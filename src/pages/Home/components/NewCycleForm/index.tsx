@@ -2,7 +2,7 @@ import { FormContainer, MinutesAmountInput, TaskInput } from "./styles";
 
 import { useContext } from "react";
 import { useFormContext } from "react-hook-form";
-import { CyclesContext } from "../..";
+import { CyclesContext } from "../../../../contexts/CyclesContext";
 
 export function NewCycleForm() {
   const { activeCycle } = useContext(CyclesContext);
