@@ -1,7 +1,7 @@
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components"
 
-import { Button } from "./components/Button";
-import { defaultTheme } from "./styles/themes/defalt";
+import { Button } from "./components/Button"
+import { defaultTheme } from "./styles/themes/defalt"
 import { GlobalStyle } from "./styles/global";
 
 export function App() {
@@ -11,7 +11,7 @@ export function App() {
       <Button variant="secondary" />
       <Button variant="success" />
       <Button variant="danger" />
-      <GlobalStyle/>
+      <GlobalStyle />
     </ThemeProvider>
   );
 }
